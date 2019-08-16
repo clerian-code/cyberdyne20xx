@@ -1,0 +1,27 @@
+{
+    "name": "cyberdyne20xx",
+	"displayName": "Cyberdyne 20XX",
+    "description": "A green cyberpunk theme",
+    "author": "clerian",
+    "version": "0.0.1",
+    "publisher": "clerian",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/clerian-code/cyberdyne20xx.git"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cyberdyne 20XX",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cyberdyne20xx-color-theme.json"
+            }
+        ]
+    }
+}
